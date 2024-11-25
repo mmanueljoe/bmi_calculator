@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins,verdana,sans-serif;
+}
+
+
+body{
+    background-color: #f3f3f3;
+    padding: 2rem;
+}
+
+h1{
+    text-align: center;
+    margin: 10px 0;
+    color: #7f7f7f;
+}
+
+.container{
+    width: 400px;
+    height: 500px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 1px 1px rgba(0,0,0,0.1);
+    transition: box-shadow 1s;
+}
+
+.container:hover{
+    box-shadow: 0px 1px 1px #7f7f7f;
+}
+
+form{
+    /* background-color: green; */
+    width: 100%;
+    margin: auto;
+    padding: 50px;
+}
+
+label{
+    margin-bottom: 10px;
+    /* color: red; */
+    color: #7f7f7f;
+    font-weight: 400;
+}
+
+input{
+    display: block;
+    width: 100%;
+    padding: 4px;
+    margin: 5px 0;
+    border-radius: 30px;
+    border: 1px solid #c3c3c3;
+    transition: border 1s, transform 1s;
+    color: #7f7f7f;
+}
+
+
+input:hover{
+    transform: scale(1.03);
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid #7f7f7f;
+}
+
+
+
+#bmi-result{
+    width: 400px;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: transform 1s ease-in-out, border 1s ease-in-out;
+}
+
+#bmi-result:hover{
+    outline: none;
+    transform: scale(1.02);
+    border: 1px solid #2583be;
+}
+
+.bmi-value{
+    color: #2583be;
+    font-weight: bold;
+}
+
+.category{
+    color: #2583be;
+    font-weight: bold;
+}
+
+select{
+    display: block;
+    margin: 5px 0;
+    width: 100%;
+    padding: 4px;
+    border-radius: 30px;
+    border: 1px solid #c3c3c3;
+    transition: border 1s, transform 1s;
+    color: #7f7f7f;
+}
+
+select:hover{
+    transform: scale(1.03);
+}
+
+select:focus{
+    outline: none;
+    border: 1px solid #7f7f7f;
+
+}
+
+
+button{
+    width: 100%;
+    border-radius: 30px;
+    padding: 4px;
+    margin: 20px 0;
+    color: #fff;
+    background-color: #2583be;
+    border-style: none;
+    font-weight: 500;
+    transition: all 1s;
+}
+
+button:hover{
+    background-color: rgba(37, 131, 190, 0.7);
+}
+
+
